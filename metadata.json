@@ -1,0 +1,6 @@
+{
+  "name": "Offline Notes",
+  "description": "A fully installable offline-first note-taking Progressive Web App (PWA) powered by IndexedDB, Dexie.js, and Cache-First service worker precaching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
