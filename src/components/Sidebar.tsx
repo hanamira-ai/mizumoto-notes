@@ -530,7 +530,7 @@ export function Sidebar({
                 if (note.id !== undefined) onTogglePin(note.id);
               }}
               title={note.pinned ? 'Unpin note' : 'Pin note to top'}
-              className={`p-1.5 rounded transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent/50 ${
+              className={`note-action-button p-1.5 rounded transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent/50 ${
                 note.pinned
                   ? 'text-brand-accent'
                   : 'text-brand-muted opacity-0 group-hover:opacity-100 hover:text-brand-accent'
@@ -548,7 +548,7 @@ export function Sidebar({
                 if (note.id !== undefined) onDeleteNote(note.id);
               }}
               title="Move note to trash"
-              className="opacity-0 group-hover:opacity-100 transition-opacity duration-150 p-1.5 text-brand-muted hover:text-brand-accent rounded focus:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent/50"
+              className="note-action-button opacity-0 group-hover:opacity-100 transition-opacity duration-150 p-1.5 text-brand-muted hover:text-brand-accent rounded focus:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent/50"
               aria-label={`Delete ${displayTitle}`}
             >
               <Trash2 className="w-3.5 h-3.5" />

@@ -72,6 +72,37 @@ body {
   scrollbar-width: none;
 }
 
+/* Touch-device note action buttons stay visible and tappable without hover. */
+@media (hover: none) and (pointer: coarse) {
+  .note-action-button {
+   opacity: 1 !important;
+   color: var(--color-brand-muted) !important;
+   min-width: 2.5rem;
+   min-height: 2.5rem;
+   width: 2.5rem;
+   height: 2.5rem;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   background: transparent;
+   touch-action: manipulation;
+  }
+
+  .note-action-button.text-brand-accent {
+   color: var(--color-brand-accent) !important;
+  }
+
+  .note-action-button svg {
+   width: 0.875rem;
+   height: 0.875rem;
+  }
+
+  .note-action-button:hover,
+  .note-action-button:focus-visible {
+   color: var(--color-brand-accent) !important;
+  }
+}
+
 /* ==========================================================================
    Tiptap & ProseMirror Unified WYSIWYG Editor Styling (Mizumoto Palette)
    ========================================================================== */
