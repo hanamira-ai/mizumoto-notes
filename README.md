@@ -4,8 +4,10 @@ A simple, powerful, offline-first note-taking Progressive Web App (PWA). Built t
 
 **Live demo:** [https://mizumoto-notes.vercel.app/](https://mizumoto-notes.vercel.app/) 
 
-![Mizumoto Notes Screenshot](./docs/mizumoto-notes.vercel.app_1.png) (./docs/mizumoto-notes.vercel.app_2.png)
-
+![Mizumoto Notes Screenshot]<p align="center">
+  <img src="./docs/screenshot-main.png" width="48%" />
+  <img src="./docs/screenshot-dark.png" width="48%" />
+</p>
 ---
 
 ## ✨ Features
